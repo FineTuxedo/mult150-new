@@ -3,26 +3,25 @@ using UnityEngine;
 public class Ground : MonoBehaviour
 {
     public float speed = .5f;
-    private Renderer groundRenderer;
+
+    Renderer renderer; 
+    float offset;
 
     void Start()
     {
-        groundRenderer = GetComponent<Renderer>();
+        renderer = GetComponent<Renderer>();
     }
 
     void Update()
     {
-        float offset = Time.time * speed % 1;  // The % 1 keeps offset between 0 and 1
-        groundRenderer.material.mainTextureOffset = new Vector2(0, -offset);
-    }
-
-    public void SlowDown()
-    {
-        speed = speed / 2;
-    }
-
-    public void SpeedUp()
-    {
-        speed = speed * 2;
+        // Increase offset based on time
+        offset += Time.deltaTime * speed;
+        
+        // Keep offset between 0 and 1
+        if (offset > 1)
+            offset -= 1;
+            
+        // Apply the offset to the material
+        renderer.material.mainTextureOffset = new Vector2(0, offset);
     }
 }
