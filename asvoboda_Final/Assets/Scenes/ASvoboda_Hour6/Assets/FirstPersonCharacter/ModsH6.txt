@@ -1,0 +1,25 @@
+ __  __     __   __     __     ______   __  __    
+/\ \/\ \   /\ "-.\ \   /\ \   /\__  _\ /\ \_\ \   
+\ \ \_\ \  \ \ \-.  \  \ \ \  \/_/\ \/ \ \____ \  
+ \ \_____\  \ \_\\"\_\  \ \_\    \ \_\  \/\_____\ 
+  \/_____/   \/_/ \/_/   \/_/     \/_/   \/_____/                       
+                                                                                                                                                                  
+
+
+A. Add multiple finish zones. See if you can place them in a way that offers the player more choices. For example, a dangerous shortcut route vs an easy but lengthier one.
+
+I added 2 finish zones and 3 ways to solve the puzzle, fast but technical, slow but easy, and slow and hard
+
+
+B. Modify the level to have more, and different hazards. (At least 2 new hazards that are not water.)
+
+I added water as well as lava balls and bombs.
+
+C. Modify the game to include an element of verticality in your game to make use of the jumping mechanic! (spacebar to jump)
+
+In all routes you ascend and need to use the jump button.
+
+D. Modify the sky and textures to create a world based on your theme.
+
+I made it seem as if it were a sunset.
+
