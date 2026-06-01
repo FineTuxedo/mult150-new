@@ -3,13 +3,13 @@ using System.Collections;
 
 public class PlayerRespawn : MonoBehaviour
 {
-	//A reference to the game manager
-	public GameManager gameManager; 
+    public GameManager gameManager;
 
-	// Triggers when the player enters the water
-	void OnTriggerEnter(Collider other)
-	{
-		// Moves the player to the spawn point
-		gameManager.PositionPlayer();
-	}
+    void OnTriggerEnter(Collider other)
+    {
+        // This will print a message to your Console when ANYTHING touches the water
+        Debug.Log("Something hit the water: " + other.gameObject.name);
+        
+        gameManager.PositionPlayer();
+    }
 }

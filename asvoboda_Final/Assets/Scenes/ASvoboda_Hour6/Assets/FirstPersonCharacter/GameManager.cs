@@ -54,12 +54,25 @@ public class GameManager : MonoBehaviour
 	}
 
 
-	//Runs when the player needs to be positioned back at the spawn point
-	public void PositionPlayer()
-	{
-		player.transform.position = spawnPoint.position;
-		player.transform.rotation = spawnPoint.rotation;
-	}
+public void PositionPlayer()
+{
+    // 1. Grab the Character Controller and turn it off so it stops fighting the teleport
+    CharacterController charController = player.GetComponent<CharacterController>();
+    if (charController != null)
+    {
+        charController.enabled = false;
+    }
+
+    // 2. Move the player to the spawn point
+    player.transform.position = spawnPoint.position;
+    player.transform.rotation = spawnPoint.rotation;
+
+    // 3. Turn the Character Controller back on so the player can move again
+    if (charController != null)
+    {
+        charController.enabled = true;
+    }
+}
 
 
 	// Runs when the player enters the finish zone
