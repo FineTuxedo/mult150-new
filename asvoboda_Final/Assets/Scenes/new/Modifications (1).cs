@@ -28,7 +28,7 @@
         PLAYER
         4 - create and attach a complex object comprised of 3 or more shapes and make it so that it is visible when the game is played.
         -If you're having trouble coming up with ideas, create a simple figure out of shapes like a Minecraft or Roblox character!
-        modifications: 
+        modifications: made him look like a minecraft character
 
         5 - use gameobject hierarchy to keep it organised
         [no record necessary]
@@ -49,14 +49,20 @@
 
         TERRAIN
         9 - raise/lower to reshape and make it distinctly different from original
-        modifications: 
+        modifications: made some mountains smaller, made the lakes in the middle less holey, replaced it with a flat area and 2 small lakes
 
         10 - paint with at least 2 new textures to replace all the textures used in the book
         (add source url or package name)
-        texture 1 source: 
-        texture 2 source: 
+        texture 1 source: https://polyhaven.com/a/gray_rocks
+        texture 2 source: https://polyhaven.com/a/brown_mud_leaves_01
+        texture 3 source: https://polyhaven.com/a/rock_face
 
-  
+        donuts at 142,6,119, 27,29,109, 112,4,55, 55,11,142
+        cats at 54,5,114, 79,11,60
+
+
+  11ish tung was added at 184 12 13
+
      
      */
 
