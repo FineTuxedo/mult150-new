@@ -16,7 +16,8 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -82,13 +83,13 @@ ModelImporter:
     serializedVersion: 3
     human: []
     skeleton:
-    - name: tripleT_model(Clone)
+    - name: TripleT(Clone)
       parentName: 
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: node_17f490ed_5fe6_4b22_a5e5_11b70c1ad3ec
-      parentName: tripleT_model(Clone)
+      parentName: TripleT(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -121,9 +122,9 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0

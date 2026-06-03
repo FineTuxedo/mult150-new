@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 	public GameObject player;
 
 	// Flags that control the state of the game
-	private float elapsedTime = 0;
+	public float elapsedTime = 0;
 	private bool isRunning = false;
 	private bool isFinished = false;
 
