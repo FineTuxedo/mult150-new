@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ASvoboda_Hour6/Assets/Scenes/Start.unity
+    guid: 8db040b4d03193d429bc16e1400fb110
+  - enabled: 1
+    path: Assets/Scenes/ASvoboda_Hour6/Assets/Scenes/game.unity
+    guid: dbf282a094a5d7f47ae61c07e56110ca
   m_configObjects: {}
